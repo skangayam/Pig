@@ -16,4 +16,4 @@ SAL = load 'pig/data/salgrade' using PigStorage(',') as (grade, losal, hisal);
 X = CROSS EMP,SAL;
 Y = filter X by EMP::sal >= SAL::losal AND EMP::sal <= SAL::hisal;  --this was the line generating error.
 Z = foreach Y generate EMP::name, SAL::grade;
-store z in 'pig/result/q2';
+store Z into 'pig/result/q2';
