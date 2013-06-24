@@ -1,3 +1,0 @@
-1,Ana,Akana,15,Hayward
-2,Mila,Kunis,23,Los Santos
-3,Broklyn,Decker,25,Milpitas
